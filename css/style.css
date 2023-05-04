@@ -49,6 +49,7 @@
   header {
     padding-top: var(--spacing-medium);
     padding-bottom: var(--spacing-medium);
+    display: flex;
   }
   
   .header-item {
@@ -77,6 +78,7 @@
     line-height: 1.2;
     font-weight: 700;
     color: var(--color-brand-primary);
+    font-size: 13px;
   }
   
   .container {
@@ -92,17 +94,22 @@
   }
   
   .form-task {
-    margin-top: var(--spacing-large);
+    margin-top: var(--spacing-medium);
   }
   
   .form-task-label {
-  
+    font-size: 13px;
+    color: var(--color-text-dark);
+    display: block;
   }
   
   .form-task-input {
-  
+    padding: 12px 15px 0 0;
   }
   
   .form-task-button {
-    
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+    background-color: var(--color-brand-secondary);
+    color: var(--color-common-light);
   }
