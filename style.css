@@ -28,21 +28,16 @@
     --spacing-medium: 24px;
     --spacing-large: 32px;
     --spacing-xlarge: 40px;
-
     }
 
     body {
         font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
         font-size: var(--spacing-default);
-        background-color: var(--color-interface-light);
+        background-color: var(--color-common-light);
     }
 
-    h1, 
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    h1 
+    {
         font-weight: normal;
     }
 
@@ -50,6 +45,7 @@
         padding-top: var(--spacing-default);
         padding-bottom: var(--spacing-small);
         display: flex;
+        background-color: var(--color-interface-light);
     }
 
     .menu-img {
@@ -103,6 +99,7 @@
     .minhas-tarefas{
         padding-bottom: var(--spacing-large);
         padding-left: var(--spacing-default);
+        background-color: var(--color-interface-light);
     }
 
     .form-task {
@@ -170,3 +167,6 @@
         cursor: pointer;
         padding-left: var(--spacing-xsmall);
     }
+
+    
+    
