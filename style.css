@@ -32,9 +32,9 @@
     }
 
     body {
-    font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
-    font-size: 16px;
-    background-color: var(--color-interface-light);
+        font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
+        font-size: 16px;
+        background-color: var(--color-interface-light);
     }
 
     h1, 
@@ -43,18 +43,18 @@
     h4,
     h5,
     h6 {
-    font-weight: normal;
+        font-weight: normal;
     }
 
     header {
-    padding-top: var(--spacing-medium);
-    padding-bottom: var(--spacing-medium);
-    display: flex;
+        padding-top: var(--spacing-medium);
+        padding-bottom: var(--spacing-medium);
+        display: flex;
     }
 
     .header-item {
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
     }
     /* header > div.container {
     display: flex;
@@ -62,35 +62,35 @@
     } */
 
     .button {
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
     }
 
     .title {
-    line-height: 1.5;
-    letter-spacing: -1px;
-    font-weight: 300;
-    color: var(--color-text-light);
+        line-height: 1.5;
+        letter-spacing: -1px;
+        font-weight: 300;
+        color: var(--color-text-light);
     }
 
     .subtitle {
-    line-height: 1.2;
-    font-weight: 700;
-    color: var(--color-brand-primary);
-    font-size: 13px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: var(--color-brand-primary);
+        font-size: 13px;
     }
 
     .container {
-    width: 94%;
-    margin-left: auto;
-    margin-right: auto;
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .avatar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
     }
 
     .minhas-tarefas{
@@ -99,30 +99,31 @@
     }
 
     .form-task {
-    margin-top: var(--spacing-medium);
+        margin-top: var(--spacing-medium);
     }
 
     .form-task-label {
-    font-size: 13px;
-    color: var(--color-text-dark);
-    display: block;
+        font-size: 13px;
+        color: var(--color-text-dark);
+        display: block;
     }
 
     .form-task-input {
-    padding: 12px 15px 0 0;
+        padding: 12px 15px 0 0;
     }
 
     .form-task-button {
-    border-radius: 3px;
-    padding: 3px 10px 3px 10px;
-    background-color: var(--color-brand-secondary);
-    color: var(--color-common-light);
+        border-radius: 3px;
+        padding: 3px 10px 3px 10px;
+        background-color: var(--color-brand-secondary);
+        color: var(--color-common-light);
     }
 
     .section-checkbox{
-        border: solid 1px#ff455b ;
+        background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
         padding-bottom: 100%;
+        padding-top: var(--spacing-default);
         display: block;
     }
 
@@ -133,6 +134,17 @@
     }
 
     .checkbox-primaria > p{
+        font-size: 13px;
+        padding: 4px 0 0 5px;
+    }
+
+    .checkbox-secundaria{
+        margin-top: var(--spacing-medium);
+        display: flex;
+        padding: 2px 5px 0 5px;
+    }
+
+    .checkbox-secundaria > p{
         font-size: 13px;
         padding: 4px 0 0 5px;
     }
