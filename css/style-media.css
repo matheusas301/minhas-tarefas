@@ -1,0 +1,525 @@
+/*
+    Media para pagina 2560px / 1470px
+*/
+@media (min-width:2560px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .minhas-tarefas{
+        padding-left: var(--spacing-xlarge);
+    }
+    
+    .menu-img {
+        padding-top: 55px;
+    }
+
+    header > img{
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+    }
+
+    .subtitle {
+        font-size: var(--spacing-large);
+    }
+
+    .form-task-label {
+        font-size: var(--spacing-large);
+    }
+
+    .form-task-input {
+        font-size: 40px;
+    }
+
+    .form-task-button{
+        height: 53px;
+        width: 68px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 35px;
+    }
+
+    .input{
+        width: 50px;
+        height: 50px;
+        border-radius: 70px;
+    }
+    
+    .section-checkbox{
+        padding-left: var(--spacing-default);
+        padding-right: var(--spacing-default);
+        border-radius: 0 70px 0 0;
+        padding-bottom: 788px;
+    }
+
+    .checkbox-primaria > p{
+        font-size: 35px;
+        padding: 0 0 0 7px;
+    }
+
+    .checkbox-secundaria > p{
+        font-size: 35px;
+        padding: 0 0 0 7px;
+    }
+
+    .material-symbols-outlined{
+        font-size: 70px;
+        padding-left: var(--spacing-medium);
+    }
+}
+
+/*
+    Media para pagina 1440px / 882px
+*/
+@media (min-width:1440px) and (max-width:1919px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 30px;
+        padding-left: var(--spacing-default);
+        margin: 0;
+    }
+    
+    header > img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .minhas-tarefas{
+        padding-left: var(--spacing-xlarge);
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .form-task-label {
+        font-size: 25px;
+    }
+
+    .form-task-input {
+        font-size: 30px;
+    }
+
+    .form-task-button{
+        width: 58px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 25px;
+    }
+    
+    .input{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        padding-left: var(--spacing-default);
+        border-radius: 0 50px 0 0;
+        padding-bottom: 395px;
+        padding-right: var(--spacing-default);
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 25px;
+        padding: 0 0 0 7px;
+    }
+
+    .checkbox-secundaria > p{
+        font-size:25px;
+        padding: 0 0 0 7px;
+    }
+    
+
+    .material-symbols-outlined{
+        font-size: 40px;
+        padding-left: var(--spacing-medium);
+    }
+}
+
+/*
+    Media para pagina 1024px / 882px
+*/
+@media (min-width:1024px) and (max-width:1439px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 30px;
+        padding-left: var(--spacing-default);
+        margin: 0;
+    }
+    
+    header > img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .minhas-tarefas{
+        padding-left: var(--spacing-xlarge);
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .form-task-label {
+        font-size: 25px;
+    }
+
+    .form-task-input {
+        font-size: 30px;
+    }
+
+    .form-task-button{
+        width: 55px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 25px;
+    }
+    
+    .input{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        padding-left: var(--spacing-default);
+        padding-right: var(--spacing-default);
+        border-radius: 0 50px 0 0;
+        padding-bottom: 395px;
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 25px;
+        padding: 0 0 0 7px;
+    }
+
+    .checkbox-secundaria > p{
+        font-size:25px;
+        padding: 0 0 0 7px;
+    }
+    
+
+    .material-symbols-outlined{
+        font-size: 40px;
+        padding-left: var(--spacing-medium);
+    }
+}
+
+/*
+    Media para pagina 768px / 882px
+*/
+@media (min-width:768px) and (max-width:1023px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 30px;
+        padding-left: var(--spacing-small);
+        margin: 0;
+    }
+    
+    header > img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .form-task-label {
+        font-size: 22px;
+    }
+
+    .form-task-input {
+        font-size: 26px;
+    }
+
+    .form-task-button{
+        height: 38px;
+        width: 50px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 23px;
+    }
+
+    .section-checkbox{
+        padding-left: var(--spacing-default);
+        border-radius: 0 50px 0 0;
+        padding-bottom: 407px;
+        padding-right: var(--spacing-default);
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 25px;
+        padding: 0 0 0 7px;
+    }
+
+    .checkbox-secundaria > p{
+        font-size:25px;
+        padding: 0 0 0 7px;
+    }
+    
+
+    .material-symbols-outlined{
+        font-size: 40px;
+        padding-left: var(--spacing-medium);
+    }
+}
+
+/*
+    Media para pagina 768px / 882px
+*/
+@media (min-width:425px) and (max-width:767px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 17px;
+    }
+    
+    header > img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .form-task-label {
+        font-size:18px;
+    }
+
+    .form-task-input {
+        font-size: 23px;
+    }
+
+    .form-task-button{
+        height: 34px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 22px;
+    }
+    
+    .input{
+        width: 26px;
+        height: 26px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        border-radius: 0 50px 0 0;
+        padding-bottom: 512px;
+        padding-right: var(--spacing-small);
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+
+    .checkbox-secundaria > p{
+        font-size:18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+    
+    .material-symbols-outlined{
+        font-size: 26px;
+    }
+}
+
+/*
+    Media para pagina 375px / 882px
+*/
+@media (min-width:375px) and (max-width:424px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 17px;
+    }
+    
+    header > img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .form-task-label {
+        font-size:18px;
+    }
+
+    .form-task-input {
+        font-size: 20px;
+    }
+
+    .form-task-button{
+        height: 28px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        margin-bottom: 3px;
+        font-size: 19px;
+    }
+    
+    .input{
+        width: 26px;
+        height: 26px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        border-radius: 0 50px 0 0;
+        padding-bottom: 516px;
+        padding-right: var(--spacing-small);
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+
+    .checkbox-secundaria > p{
+        font-size:18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+    
+    .material-symbols-outlined{
+        font-size: 26px;
+    }
+}
+
+/*
+    Media para pagina 320px / 882px
+*/
+@media (min-width:320px) and (max-width:374px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 12px;
+        margin: 0;
+    }
+
+    .minhas-tarefas{
+        padding-left: var(--spacing-small);
+    }
+    
+    header > img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .form-task-label {
+        font-size:15px;
+    }
+
+    .form-task-input {
+        font-size: 18px;
+    }
+
+    .form-task-button{
+        height: 28px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        margin-bottom: 3px;
+        font-size: 20px;
+    }
+    
+    .input{
+        width: 23px;
+        height: 23px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        border-radius: 0 50px 0 0;
+        padding-bottom: 534px;
+        padding-right: var(--spacing-small);
+        padding-left: 0;
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 16px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+
+    .checkbox-secundaria > p{
+        font-size:16px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+    
+    .material-symbols-outlined{
+        font-size: 26px;
+    }
+}
+
+
+
+
+
+
+
