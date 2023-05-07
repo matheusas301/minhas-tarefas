@@ -415,6 +415,71 @@
     }
 }
 
+/*
+    Media para pagina 320px / 882px
+*/
+@media (min-width:320px) and (max-width:374px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 12px;
+    }
+    
+    header > img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .form-task-label {
+        font-size:15px;
+    }
+
+    .form-task-input {
+        padding: 15px 30px 0 0;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 27px;
+    }
+    
+    .input{
+        width: 23px;
+        height: 23px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        border-radius: 0 50px 0 0;
+        padding-bottom: 533px;
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 16px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+
+    .checkbox-secundaria > p{
+        font-size:16px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+    
+    .material-symbols-outlined{
+        font-size: 26px;
+    }
+}
+
 
 
 
