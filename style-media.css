@@ -18,48 +18,50 @@
         width: 180px;
         height: 180px;
         border-radius: 100%;
+        
     }
 
     h1 {
-        font-size: 65px;
+        font-size: 80px;
     }
 
     .subtitle {
-        font-size: var(--spacing-large);
+        font-size: var(--spacing-xlarge);
     }
 
     .form-task-label {
-        font-size: var(--spacing-large);
+        font-size: var(--spacing-xlarge);
     }
 
     .form-task-input {
-        padding: 50px 400px 0 0;
+        padding: 60px 750px 0 0;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 66px;
+        font-size: 70px;
     }
 
     .input{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 70px;
     }
     
     .section-checkbox{
         padding-left: var(--spacing-default);
+        padding-right: var(--spacing-default);
         border-radius: 0 70px 0 0;
         padding-bottom: 761px;
     }
 
     .checkbox-primaria > p{
-        font-size: 45px;
+        font-size: 35px;
         padding: 0 0 0 7px;
     }
 
     .checkbox-secundaria > p{
-        font-size: 45px;
+        font-size: 35px;
         padding: 0 0 0 7px;
     }
 
