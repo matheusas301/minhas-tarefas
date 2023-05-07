@@ -33,12 +33,13 @@
     }
 
     .form-task-input {
-        padding: 60px 750px 0 0;
+        font-size: 40px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 70px;
+        margin-bottom: 7px;
+        font-size: 35px;
     }
 
     .input{
@@ -105,12 +106,13 @@
     }
 
     .form-task-input {
-        padding: 30px 300px 0 0;
+        font-size: 30px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 44px;
+        margin-bottom: 7px;
+        font-size: 28px;
     }
     
     .input{
@@ -178,12 +180,13 @@
     }
 
     .form-task-input {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 44px;
+        margin-bottom: 7px;
+        font-size: 28px;
     }
     
     .input{
@@ -251,18 +254,13 @@
     }
 
     .form-task-input {
-        padding: 30px 300px 0 0;
+        font-size: 26px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 44px;
-    }
-    
-    .input{
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
+        margin-bottom: 3px;
+        font-size: 25px;
     }
 
     .section-checkbox{
@@ -320,12 +318,13 @@
     }
 
     .form-task-input {
-        padding: 20px 60px 0 0;
+        font-size: 23px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 33px;
+        margin-bottom: 3px;
+        font-size: 22px;
     }
     
     .input{
@@ -386,12 +385,13 @@
     }
 
     .form-task-input {
-        padding: 20px 60px 0 0;
+        font-size: 20px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 33px;
+        margin-bottom: 3px;
+        font-size: 19px;
     }
     
     .input{
@@ -452,12 +452,13 @@
     }
 
     .form-task-input {
-        padding: 15px 30px 0 0;
+        font-size: 18px;
     }
 
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        font-size: 27px;
+        margin-bottom: 3px;
+        font-size: 19px;
     }
     
     .input{
