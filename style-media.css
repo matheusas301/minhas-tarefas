@@ -20,10 +20,6 @@
         border-radius: 100%;
     }
 
-    h1 {
-        font-size: 90px;
-    }
-
     .subtitle {
         font-size: var(--spacing-large);
     }
@@ -52,7 +48,7 @@
         padding-left: var(--spacing-default);
         padding-right: var(--spacing-default);
         border-radius: 0 70px 0 0;
-        padding-bottom: 761px;
+        padding-bottom: 788px;
     }
 
     .checkbox-primaria > p{
@@ -81,6 +77,8 @@
     
     .menu-img {
         padding-top: 30px;
+        padding-left: var(--spacing-default);
+        margin: 0;
     }
     
     header > img{
@@ -124,7 +122,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 383px;
+        padding-bottom: 395px;
         padding-right: var(--spacing-default);
     }
     
@@ -155,6 +153,7 @@
     
     .menu-img {
         padding-top: 30px;
+        padding-left: var(--spacing-default);
         margin: 0;
     }
     
@@ -200,7 +199,7 @@
         padding-left: var(--spacing-default);
         padding-right: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 430px;
+        padding-bottom: 395px;
     }
     
     .checkbox-primaria > p{
@@ -230,6 +229,7 @@
     
     .menu-img {
         padding-top: 30px;
+        padding-left: var(--spacing-small);
         margin: 0;
     }
     
@@ -264,7 +264,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 383px;
+        padding-bottom: 407px;
         padding-right: var(--spacing-default);
     }
     
@@ -443,7 +443,7 @@
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .subtitle {

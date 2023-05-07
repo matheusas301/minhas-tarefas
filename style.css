@@ -39,6 +39,7 @@
     h1 
     {
         font-weight: normal;
+        font-size: 65px;
     }
 
     header {
@@ -78,7 +79,6 @@
         letter-spacing: -1px;
         font-weight: 300;
         color: var(--color-text-light);
-        font-size: 40px;
     }
 
     .subtitle {
@@ -168,6 +168,7 @@
     .checkbox-secundaria > p{
         font-size: 23px;
         padding: 0 0 0 5px;
+        text-decoration: line-through;
     }
 
     .button-edit{
@@ -186,8 +187,8 @@
 
     .material-symbols-outlined{
         font-size: 40px;
-        margin-left: var(--spacing-small);
-        margin-right: var(--spacing-small);
+        padding-left: var(--spacing-small);
+        padding-right: var(--spacing-small);
     }
 
     
