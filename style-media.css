@@ -50,7 +50,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 70px 0 0;
-        padding-bottom: 770px;
+        padding-bottom: 761px;
     }
 
     .checkbox-primaria > p{
@@ -121,7 +121,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 385px;
+        padding-bottom: 383px;
     }
     
     .checkbox-primaria > p{
@@ -193,7 +193,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 385px;
+        padding-bottom: 383px;
     }
     
     .checkbox-primaria > p{
@@ -265,7 +265,7 @@
     .section-checkbox{
         padding-left: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 385px;
+        padding-bottom: 383px;
     }
     
     .checkbox-primaria > p{
@@ -282,6 +282,71 @@
     .material-symbols-outlined{
         font-size: 40px;
         padding-left: var(--spacing-medium);
+    }
+}
+
+/*
+    Media para pagina 768px / 882px
+*/
+@media (min-width:425px) and (max-width:767px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 10px;
+    }
+    
+    header > img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .form-task-label {
+        font-size:18px;
+    }
+
+    .form-task-input {
+        padding: 20px 60px 0 0;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 33px;
+    }
+    
+    .input{
+        width: 26px;
+        height: 26px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        border-radius: 0 50px 0 0;
+        padding-bottom: 503px;
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+
+    .checkbox-secundaria > p{
+        font-size:18px;
+        padding: 0 0 0 var(--spacing-small);
+    }
+    
+    .material-symbols-outlined{
+        font-size: 26px;
     }
 }
 
