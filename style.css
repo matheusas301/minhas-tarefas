@@ -85,7 +85,7 @@
         line-height: 1.2;
         font-weight: 700;
         color: var(--color-brand-primary);
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .container {
@@ -118,9 +118,12 @@
         font-size: 28px;
     }
 
+    .form-task-button{
+        height: 40px;
+    }
+
     .form-task-button > .material-symbols-outlined{
-        margin-bottom: 5px;
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .form-task-button {
@@ -140,7 +143,7 @@
         background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
         padding-top: var(--spacing-default);
-        padding-bottom: 495px;
+        padding-bottom: 453px;
         display: block;
         padding-left: var(--spacing-default);
         padding-right: var(--spacing-default);

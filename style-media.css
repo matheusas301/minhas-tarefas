@@ -32,9 +32,13 @@
         font-size: 40px;
     }
 
+    .form-task-button{
+        height: 53px;
+        width: 68px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        margin-bottom: 7px;
         font-size: 35px;
     }
 
@@ -107,10 +111,13 @@
         font-size: 30px;
     }
 
+    .form-task-button{
+        width: 58px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        margin-bottom: 7px;
-        font-size: 28px;
+        font-size: 25px;
     }
     
     .input{
@@ -183,10 +190,13 @@
         font-size: 30px;
     }
 
+    .form-task-button{
+        width: 55px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        margin-bottom: 7px;
-        font-size: 28px;
+        font-size: 25px;
     }
     
     .input{
@@ -255,10 +265,14 @@
         font-size: 26px;
     }
 
+    .form-task-button{
+        height: 38px;
+        width: 50px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        margin-bottom: 3px;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .section-checkbox{
@@ -319,9 +333,12 @@
         font-size: 23px;
     }
 
+    .form-task-button{
+        height: 34px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
-        margin-bottom: 3px;
         font-size: 22px;
     }
     
@@ -333,7 +350,7 @@
 
     .section-checkbox{
         border-radius: 0 50px 0 0;
-        padding-bottom: 503px;
+        padding-bottom: 512px;
         padding-right: var(--spacing-small);
     }
     
@@ -386,6 +403,10 @@
         font-size: 20px;
     }
 
+    .form-task-button{
+        height: 28px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
         margin-bottom: 3px;
@@ -400,7 +421,7 @@
 
     .section-checkbox{
         border-radius: 0 50px 0 0;
-        padding-bottom: 503px;
+        padding-bottom: 516px;
         padding-right: var(--spacing-small);
     }
     
@@ -458,10 +479,14 @@
         font-size: 18px;
     }
 
+    .form-task-button{
+        height: 28px;
+    }
+
     .form-task-button > .material-symbols-outlined{
         padding: 0;
         margin-bottom: 3px;
-        font-size: 19px;
+        font-size: 20px;
     }
     
     .input{
@@ -472,7 +497,7 @@
 
     .section-checkbox{
         border-radius: 0 50px 0 0;
-        padding-bottom: 533px;
+        padding-bottom: 534px;
         padding-right: var(--spacing-small);
         padding-left: 0;
     }
