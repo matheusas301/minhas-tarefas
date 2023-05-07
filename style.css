@@ -50,13 +50,14 @@
 
     .menu-img {
         justify-content: space-between;
-        margin-left: var(--spacing-default); 
+        margin-left: var(--spacing-medium);
+        padding-top: 30px 
     }
 
     header > img{
-        width: var(--spacing-large);;
-        height: var(--spacing-large);
-        border-radius: var(--spacing-xlarge);
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
         margin-left: auto;
         margin-right: var(--spacing-default);
     }
@@ -77,13 +78,14 @@
         letter-spacing: -1px;
         font-weight: 300;
         color: var(--color-text-light);
+        font-size: 40px;
     }
 
     .subtitle {
         line-height: 1.2;
         font-weight: 700;
         color: var(--color-brand-primary);
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .container {
@@ -98,22 +100,27 @@
 
     .minhas-tarefas{
         padding-bottom: var(--spacing-large);
-        padding-left: var(--spacing-default);
+        padding-left: var(--spacing-large);
         background-color: var(--color-interface-light);
     }
 
     .form-task {
-        margin-top: var(--spacing-medium);
+        padding-top: var(--spacing-medium);
     }
 
     .form-task-label {
-        font-size: 13px;
+        font-size: 25px;
         color: var(--color-text-dark);
         display: block;
     }
 
-    .form-task-input{
-        font-size: 20px;
+    .form-task-input {
+        font-size: 28px;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        margin-bottom: 5px;
+        font-size: 28px;
     }
 
     .form-task-button {
@@ -123,12 +130,20 @@
         color: var(--color-common-light);
     }
 
+    .input{
+        width: 30px;
+        height: 30px;
+        border-radius: 70px;
+    }
+
     .section-checkbox{
         background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
         padding-top: var(--spacing-default);
         padding-bottom: 100%;
         display: block;
+        padding-left: var(--spacing-default);
+        padding-right: var(--spacing-default);
     }
 
     .checkbox-primaria{
@@ -139,8 +154,8 @@
     }
 
     .checkbox-primaria > p{
-        font-size: 13px;
-        padding: 4px 0 0 5px;
+        font-size: 23px;
+        padding: 0 0 0 7px;
     }
 
     .checkbox-secundaria{
@@ -151,8 +166,8 @@
     }
 
     .checkbox-secundaria > p{
-        font-size: 13px;
-        padding: 4px 0 0 5px;
+        font-size: 23px;
+        padding: 0 0 0 5px;
     }
 
     .button-edit{
@@ -161,11 +176,18 @@
         cursor: pointer;
         margin-left: auto;
     }
+
     .button-delete{
         border: 0;
         background-color: transparent;
         cursor: pointer;
         padding-left: var(--spacing-xsmall);
+    }
+
+    .material-symbols-outlined{
+        font-size: 40px;
+        margin-left: var(--spacing-small);
+        margin-right: var(--spacing-small);
     }
 
     
