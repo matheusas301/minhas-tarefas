@@ -63,11 +63,6 @@
         margin-right: var(--spacing-default);
     }
 
-    /* header > div.container {
-    display: flex;
-    justify-content: space-between;
-    } */
-
     .button {
         border: 0;
         background-color: transparent;
@@ -86,16 +81,6 @@
         font-weight: 700;
         color: var(--color-brand-primary);
         font-size: 25px;
-    }
-
-    .container {
-       display: flex;
-    }
-
-    .avatar {
-        width: var(--spacing-large);
-        height: var(--spacing-large);
-        border-radius: 50%;
     }
 
     .minhas-tarefas{
