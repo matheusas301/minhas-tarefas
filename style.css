@@ -52,7 +52,7 @@
     .menu-img {
         justify-content: space-between;
         margin-left: var(--spacing-medium);
-        padding-top: 30px 
+        padding-top: 30px;
     }
 
     header > img{
