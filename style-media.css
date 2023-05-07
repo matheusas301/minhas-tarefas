@@ -73,7 +73,7 @@
 /*
     Media para pagina 1440px / 882px
 */
-@media (min-width:1440px) and (max-width:2559px){
+@media (min-width:1440px) and (max-width:1919px){
     body{
         background-color: var(--color-interface-light);
     }
@@ -178,7 +178,7 @@
     }
 
     .form-task-input {
-        padding: 30px 300px 0 0;
+        font-size: 40px;
     }
 
     .form-task-button > .material-symbols-outlined{
@@ -196,7 +196,7 @@
         padding-left: var(--spacing-default);
         padding-right: var(--spacing-default);
         border-radius: 0 50px 0 0;
-        padding-bottom: 383px;
+        padding-bottom: 430px;
     }
     
     .checkbox-primaria > p{

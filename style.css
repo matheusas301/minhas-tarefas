@@ -112,8 +112,8 @@
         display: block;
     }
 
-    .form-task-input {
-        padding: 12px 15px 0 0;
+    .form-task-input{
+        font-size: 20px;
     }
 
     .form-task-button {
@@ -127,6 +127,7 @@
         background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
         padding-top: var(--spacing-default);
+        padding-bottom: 100%;
         display: block;
     }
 
@@ -167,5 +168,6 @@
         padding-left: var(--spacing-xsmall);
     }
 
+    
     
     
