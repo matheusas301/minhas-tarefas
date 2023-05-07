@@ -33,7 +33,7 @@
     body {
         font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
         font-size: var(--spacing-default);
-        background-color: var(--color-common-light);
+        background-color: var(--color-interface-light);
     }
 
     h1 
@@ -140,7 +140,7 @@
         background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
         padding-top: var(--spacing-default);
-        padding-bottom: 100%;
+        padding-bottom: 495px;
         display: block;
         padding-left: var(--spacing-default);
         padding-right: var(--spacing-default);
