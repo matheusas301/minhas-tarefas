@@ -2,6 +2,10 @@
     Media para pagina 2560px / 1470px
 */
 @media (min-width:2560px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
     .minhas-tarefas{
         padding-left: var(--spacing-xlarge);
     }
@@ -32,12 +36,8 @@
         padding: 50px 400px 0 0;
     }
 
-    .form-task-button {
-        padding: 0;
-    }
-
     .form-task-button > .material-symbols-outlined{
-        padding-right: 20px;
+        padding: 0;
         font-size: 66px;
     }
 
@@ -48,7 +48,9 @@
     }
     
     .section-checkbox{
-        margin-left: var(--spacing-default);
+        padding-left: var(--spacing-default);
+        border-radius: 0 70px 0 0;
+        padding-bottom: 770px;
     }
 
     .checkbox-primaria > p{
@@ -66,6 +68,79 @@
         padding-left: var(--spacing-medium);
     }
 }
+
+/*
+    Media para pagina 2560px / 1470px
+*/
+@media (min-width:1440px) and (max-width:2559px){
+    body{
+        background-color: var(--color-interface-light);
+    }
+    
+    .menu-img {
+        padding-top: 30px;
+    }
+    
+    header > img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .minhas-tarefas{
+        padding-left: var(--spacing-xlarge);
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .form-task-label {
+        font-size: 25px;
+    }
+
+    .form-task-input {
+        padding: 30px 300px 0 0;
+    }
+
+    .form-task-button > .material-symbols-outlined{
+        padding: 0;
+        font-size: 44px;
+    }
+    
+    .input{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .section-checkbox{
+        padding-left: var(--spacing-default);
+        border-radius: 0 50px 0 0;
+        padding-bottom: 385px;
+    }
+    
+    .checkbox-primaria > p{
+        font-size: 25px;
+        padding: 0 0 0 7px;
+    }
+
+    .checkbox-secundaria > p{
+        font-size:25px;
+        padding: 0 0 0 7px;
+    }
+    
+
+    .material-symbols-outlined{
+        font-size: 40px;
+        padding-left: var(--spacing-medium);
+    }
+}
+
 
 
 

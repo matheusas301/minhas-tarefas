@@ -126,7 +126,6 @@
     .section-checkbox{
         background-color: var(--color-common-light);
         border-radius: 0 var(--spacing-xlarge) 0 0;
-        padding-bottom: 100%;
         padding-top: var(--spacing-default);
         display: block;
     }
